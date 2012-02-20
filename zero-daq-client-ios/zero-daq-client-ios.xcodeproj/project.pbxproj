@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA57D8C114F09AE800C06D5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA57D8C014F09AE800C06D5F /* UIKit.framework */; };
+		FA57D8C314F09AE800C06D5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA57D8C214F09AE800C06D5F /* Foundation.framework */; };
+		FA57D8C514F09AE800C06D5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA57D8C414F09AE800C06D5F /* CoreGraphics.framework */; };
+		FA57D8CB14F09AE800C06D5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA57D8C914F09AE800C06D5F /* InfoPlist.strings */; };
+		FA57D8CD14F09AE800C06D5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA57D8CC14F09AE800C06D5F /* main.m */; };
+		FA57D8D114F09AE800C06D5F /* ZOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA57D8D014F09AE800C06D5F /* ZOAppDelegate.m */; };
+		FA57D8D414F09AE800C06D5F /* ZOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA57D8D314F09AE800C06D5F /* ZOViewController.m */; };
+		FA57D8D714F09AE800C06D5F /* ZOViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA57D8D514F09AE800C06D5F /* ZOViewController_iPhone.xib */; };
+		FA57D8DA14F09AE800C06D5F /* ZOViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA57D8D814F09AE800C06D5F /* ZOViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA57D8BC14F09AE800C06D5F /* zero-daq-client-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zero-daq-client-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA57D8C014F09AE800C06D5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA57D8C214F09AE800C06D5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA57D8C414F09AE800C06D5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA57D8C814F09AE800C06D5F /* zero-daq-client-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zero-daq-client-ios-Info.plist"; sourceTree = "<group>"; };
+		FA57D8CA14F09AE800C06D5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA57D8CC14F09AE800C06D5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA57D8CE14F09AE800C06D5F /* zero-daq-client-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zero-daq-client-ios-Prefix.pch"; sourceTree = "<group>"; };
+		FA57D8CF14F09AE800C06D5F /* ZOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZOAppDelegate.h; sourceTree = "<group>"; };
+		FA57D8D014F09AE800C06D5F /* ZOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOAppDelegate.m; sourceTree = "<group>"; };
+		FA57D8D214F09AE800C06D5F /* ZOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZOViewController.h; sourceTree = "<group>"; };
+		FA57D8D314F09AE800C06D5F /* ZOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOViewController.m; sourceTree = "<group>"; };
+		FA57D8D614F09AE800C06D5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZOViewController_iPhone.xib; sourceTree = "<group>"; };
+		FA57D8D914F09AE800C06D5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZOViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA57D8B914F09AE800C06D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA57D8C114F09AE800C06D5F /* UIKit.framework in Frameworks */,
+				FA57D8C314F09AE800C06D5F /* Foundation.framework in Frameworks */,
+				FA57D8C514F09AE800C06D5F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA57D8B114F09AE700C06D5F = {
+			isa = PBXGroup;
+			children = (
+				FA57D8C614F09AE800C06D5F /* zero-daq-client-ios */,
+				FA57D8BF14F09AE800C06D5F /* Frameworks */,
+				FA57D8BD14F09AE800C06D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA57D8BD14F09AE800C06D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA57D8BC14F09AE800C06D5F /* zero-daq-client-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA57D8BF14F09AE800C06D5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA57D8C014F09AE800C06D5F /* UIKit.framework */,
+				FA57D8C214F09AE800C06D5F /* Foundation.framework */,
+				FA57D8C414F09AE800C06D5F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA57D8C614F09AE800C06D5F /* zero-daq-client-ios */ = {
+			isa = PBXGroup;
+			children = (
+				FA57D8CF14F09AE800C06D5F /* ZOAppDelegate.h */,
+				FA57D8D014F09AE800C06D5F /* ZOAppDelegate.m */,
+				FA57D8D214F09AE800C06D5F /* ZOViewController.h */,
+				FA57D8D314F09AE800C06D5F /* ZOViewController.m */,
+				FA57D8D514F09AE800C06D5F /* ZOViewController_iPhone.xib */,
+				FA57D8D814F09AE800C06D5F /* ZOViewController_iPad.xib */,
+				FA57D8C714F09AE800C06D5F /* Supporting Files */,
+			);
+			path = "zero-daq-client-ios";
+			sourceTree = "<group>";
+		};
+		FA57D8C714F09AE800C06D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA57D8C814F09AE800C06D5F /* zero-daq-client-ios-Info.plist */,
+				FA57D8C914F09AE800C06D5F /* InfoPlist.strings */,
+				FA57D8CC14F09AE800C06D5F /* main.m */,
+				FA57D8CE14F09AE800C06D5F /* zero-daq-client-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA57D8BB14F09AE800C06D5F /* zero-daq-client-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA57D8DD14F09AE800C06D5F /* Build configuration list for PBXNativeTarget "zero-daq-client-ios" */;
+			buildPhases = (
+				FA57D8B814F09AE800C06D5F /* Sources */,
+				FA57D8B914F09AE800C06D5F /* Frameworks */,
+				FA57D8BA14F09AE800C06D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zero-daq-client-ios";
+			productName = "zero-daq-client-ios";
+			productReference = FA57D8BC14F09AE800C06D5F /* zero-daq-client-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA57D8B314F09AE700C06D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Zero Vision";
+			};
+			buildConfigurationList = FA57D8B614F09AE700C06D5F /* Build configuration list for PBXProject "zero-daq-client-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA57D8B114F09AE700C06D5F;
+			productRefGroup = FA57D8BD14F09AE800C06D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA57D8BB14F09AE800C06D5F /* zero-daq-client-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA57D8BA14F09AE800C06D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA57D8CB14F09AE800C06D5F /* InfoPlist.strings in Resources */,
+				FA57D8D714F09AE800C06D5F /* ZOViewController_iPhone.xib in Resources */,
+				FA57D8DA14F09AE800C06D5F /* ZOViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA57D8B814F09AE800C06D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA57D8CD14F09AE800C06D5F /* main.m in Sources */,
+				FA57D8D114F09AE800C06D5F /* ZOAppDelegate.m in Sources */,
+				FA57D8D414F09AE800C06D5F /* ZOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA57D8C914F09AE800C06D5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA57D8CA14F09AE800C06D5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA57D8D514F09AE800C06D5F /* ZOViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA57D8D614F09AE800C06D5F /* en */,
+			);
+			name = ZOViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FA57D8D814F09AE800C06D5F /* ZOViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA57D8D914F09AE800C06D5F /* en */,
+			);
+			name = ZOViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA57D8DB14F09AE800C06D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA57D8DC14F09AE800C06D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA57D8DE14F09AE800C06D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zero-daq-client-ios/zero-daq-client-ios-Prefix.pch";
+				INFOPLIST_FILE = "zero-daq-client-ios/zero-daq-client-ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA57D8DF14F09AE800C06D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zero-daq-client-ios/zero-daq-client-ios-Prefix.pch";
+				INFOPLIST_FILE = "zero-daq-client-ios/zero-daq-client-ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA57D8B614F09AE700C06D5F /* Build configuration list for PBXProject "zero-daq-client-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA57D8DB14F09AE800C06D5F /* Debug */,
+				FA57D8DC14F09AE800C06D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA57D8DD14F09AE800C06D5F /* Build configuration list for PBXNativeTarget "zero-daq-client-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA57D8DE14F09AE800C06D5F /* Debug */,
+				FA57D8DF14F09AE800C06D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA57D8B314F09AE700C06D5F /* Project object */;
+}
